@@ -1,0 +1,16 @@
+# 忽略.git目录
+/.git
+# 忽略上传Pycharm的配置文件
+**/.idea/
+**/__pycache__/
+
+# 配置忽略日志文件
+**/*.log*
+
+# 配置忽略用户上传的文件
+media/*
+!media/.gitkeep
+
+# 配置忽略python生成的数据库迁移记录文件
+/*/migrations/*
+!/*/migrations/__init__.py

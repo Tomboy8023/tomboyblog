@@ -128,3 +128,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 设置最小的用户ID为1000
+MIN_USER_NUMBER = 1000
+# Tomboy_8023是特殊ID，仅供自己使用
+OWNER_USER_NUMBER = 8023
+# 无效的用户初始id_num
+INVALID_USER_NUMBER = -10000
+# 设置userid的startswith
+USERID_STARTSWITH = 'Tomboy_'
